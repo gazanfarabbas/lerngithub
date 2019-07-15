@@ -23,7 +23,8 @@ $(document).ready(function() {
         buttons: [
             "extend":'excel',
 	    "text":'Export to Excel',
-	    "className":"btn btn-primary"
+	    "className":"btn btn-primary",
+	    //"columns":":not(:last-child)",
         ]
     });
 });
